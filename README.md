@@ -1,11 +1,11 @@
 # Salto
-Fork of Atlas ->|
+Fork of Atlas ->\|
                 V
-##           Features
+            Features
 * Coordinates on the top of the map
 * <H> key to force-hide the map
-                |
+                \|
                 V 
-##         In progress
+           In progress
 * Entities
 * Waypoints

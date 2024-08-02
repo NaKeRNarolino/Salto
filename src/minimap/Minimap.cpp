@@ -8,6 +8,24 @@
 #include <minecraft/src/common/world/level/block/BlockLegacy.hpp>
 #include <minecraft/src/common/world/level/dimension/Dimension.hpp>
 
+#include <amethyst/runtime/events/RenderingEvents.hpp>
+#include <minecraft/src-deps/core/math/Color.hpp>
+#include <minecraft/src-client/common/client/gui/ScreenView.hpp>
+#include <minecraft/src-client/common/client/gui/gui/UIControl.hpp>
+#include <minecraft/src-client/common/client/gui/gui/VisualTree.hpp>
+#include <minecraft/src-client/common/client/renderer/TexturePtr.hpp>
+#include <minecraft/src-client/common/client/renderer/screen/MinecraftUIRenderContext.hpp>
+#include <minecraft/src-client/common/client/game/ClientInstance.hpp>
+#include <minecraft/src-deps/core/resource/ResourceHelper.hpp>
+
+
+double round_up(double value, int decimal_places)
+{
+    const double multiplier = std::pow(10.0, decimal_places);
+    return std::ceil(value * multiplier) / multiplier;
+}
+
+
 extern std::shared_ptr<Minimap> minimap;
 
 Vec3 unitQuad[4] = {
@@ -99,8 +117,12 @@ void Minimap::TessellateChunkMesh(Tessellator& mTes, BlockSource& region, const 
 
     mTes.begin(mce::PrimitiveMode::QuadList, 16 * 16);
 
+
     int worldX = chunkPos.x * 16;
     int worldZ = chunkPos.z * 16;
+
+
+    
 
     // Pre-sample block colours
     std::array<std::array<uint32_t, 16>, 16> packedColorData{};
@@ -241,6 +263,17 @@ void Minimap::Render(MinecraftUIRenderContext& ctx)
         for (int z = -mRenderDistance - 1; z <= mRenderDistance + 1; z++) {
             ChunkPos chunkPos(x + playerChunkPos.x, z + playerChunkPos.z);
 
+            float worldX = chunkPos.x * 16;
+            float worldZ = chunkPos.z * 16;
+
+            auto entities =
+                (*region).fetchEntities(nullptr, AABB({worldX, 0, worldZ}, {worldX - 16, 250, worldZ - 16}), false, true);
+            for (auto &v : entities) {
+                auto pos = *v.get()->getPosition();
+                Log::Info("{} {} {}", pos.x, pos.y, pos.z);
+            }
+            
+            
             // Attempt to find a mesh for this chunk
             auto mesh = mChunkToMesh.find(chunkPos.packed);
             if (mesh == mChunkToMesh.end()) continue;
@@ -300,8 +333,16 @@ void Minimap::Render(MinecraftUIRenderContext& ctx)
 
     mce::Mesh mesh = mTes.end(0, "player_pos_icon", 0);
     mTes.clear();
+    RectangleArea textRect{screenSize.x - (mMinimapSize + mMinimapEdgeBorder) + 2, screenSize.x - mMinimapEdgeBorder + 2, mMinimapEdgeBorder, mMinimapEdgeBorder + mMinimapSize};
+
+    auto tmd = TextMeasureData(1);
+    auto cmd = CaretMeasureData(10);
+    std::string text = "X: " + std::to_string((int)std::round(playerPos->x)) + " " + "Y: " + std::to_string((int)std::round(playerPos->y)) + " " + "Z: " + std::to_string((int)std::round(playerPos->z));
+
 
     mesh.renderMesh(*ctx.mScreenContext, *mMinimapMaterial, mMinimapPosIcon);
+    ctx.drawDebugText(&textRect, &text, &mce::Color::WHITE_BG, 1, ui::TextAlignment::Left, &tmd, &cmd);
+    ctx.flushText(0.0f);
 }
 
 void Minimap::CullChunk(const ChunkPos& pos)

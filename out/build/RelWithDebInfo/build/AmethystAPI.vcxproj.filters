@@ -1,0 +1,1571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\Zydis.c">
+      <Filter>amethyst-deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\safetyhook.cpp">
+      <Filter>amethyst-deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Config.cpp">
+      <Filter>amethyst</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Log.cpp">
+      <Filter>amethyst</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Memory.cpp">
+      <Filter>amethyst</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.cpp">
+      <Filter>amethyst</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Utility.cpp">
+      <Filter>amethyst</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\HookManager.cpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\ModContext.cpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputManager.cpp">
+      <Filter>amethyst\runtime\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\minecraft\MinecraftPackageInfo.cpp">
+      <Filter>amethyst\runtime\minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\mod\Mod.cpp">
+      <Filter>amethyst\runtime\mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\patchManager\PatchManager.cpp">
+      <Filter>amethyst\runtime\patchManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\ui\NinesliceHelper.cpp">
+      <Filter>amethyst\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\ClientInstance.cpp">
+      <Filter>minecraft\src-client\common\client\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\ScreenView.cpp">
+      <Filter>minecraft\src-client\common\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\TextComponent.cpp">
+      <Filter>minecraft\src-client\common\client\gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\UIControl.cpp">
+      <Filter>minecraft\src-client\common\client\gui\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\Keymapping.cpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\RemappingLayout.cpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\VanillaClientInputMappingFactory.cpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\Geometry.cpp">
+      <Filter>minecraft\src-client\common\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\BaseOptions.cpp">
+      <Filter>minecraft\src-client\common\client\options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\player\LocalPlayer.cpp">
+      <Filter>minecraft\src-client\common\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderContext.cpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\RenderMaterialGroup.cpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\Tessellator.cpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TextureGroup.cpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\actor\ItemRenderer.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockGraphics.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\block</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockTessellator.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\block</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRendererPlayer.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\helpers\MeshHelpers.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\MinecraftUIRenderContext.cpp">
+      <Filter>minecraft\src-client\common\client\renderer\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\world\item\ItemIconManager.cpp">
+      <Filter>minecraft\src-client\common\client\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\Blob.cpp">
+      <Filter>minecraft\src-deps\core\container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\file\Path.cpp">
+      <Filter>minecraft\src-deps\core\file</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Color.cpp">
+      <Filter>minecraft\src-deps\core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceHelper.cpp">
+      <Filter>minecraft\src-deps\core\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\string\StringHash.cpp">
+      <Filter>minecraft\src-deps\core\string</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\SpinLock.cpp">
+      <Filter>minecraft\src-deps\core\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\BinaryStream.cpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\StringUtils.cpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\UUID.cpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\SubscriptionContext.cpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageDescription.cpp">
+      <Filter>minecraft\src-deps\coregraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputHandler.cpp">
+      <Filter>minecraft\src-deps\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.cpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\Mesh.cpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureContainer.cpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Matrix.cpp">
+      <Filter>minecraft\src-deps\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\CommonTypes.cpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\Minecraft.cpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\dataloadhelper\DefaultDataLoadHelper.cpp">
+      <Filter>minecraft\src\common\dataloadhelper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\OwnerStorageSharePtr.cpp">
+      <Filter>minecraft\src\common\gamerefs\gamerefs_shareptr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTag.cpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTagVariant.cpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ListTag.cpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Tag.cpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.cpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\BiMap.cpp">
+      <Filter>minecraft\src\common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.cpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Facing.cpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Actor.cpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Player.cpp">
+      <Filter>minecraft\src\common\world\actor\player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.cpp">
+      <Filter>minecraft\src\common\world\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.cpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStack.cpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStackBase.cpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistry.cpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryManager.cpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryRef.cpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockPos.cpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSource.cpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkBlockPos.cpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\ActorBlock.cpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\Block.cpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.cpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.cpp">
+      <Filter>minecraft\src\common\world\level\block\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.cpp">
+      <Filter>minecraft\src\common\world\level\block\actor\container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.cpp">
+      <Filter>minecraft\src\common\world\level\block\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\BlockVolume.cpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.cpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunk.cpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.cpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionBrightnessRamp.cpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\VanillaDimensions.cpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.cpp">
+      <Filter>minecraft\src\common\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.cpp">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\AABB.cpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec3.cpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\Zydis.h">
+      <Filter>amethyst-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\safetyhook.hpp">
+      <Filter>amethyst-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Config.hpp">
+      <Filter>amethyst</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Log.hpp">
+      <Filter>amethyst</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Memory.hpp">
+      <Filter>amethyst</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.hpp">
+      <Filter>amethyst</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Utility.hpp">
+      <Filter>amethyst</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\AmethystContext.hpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\EnumAllocator.hpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\HookManager.hpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\ModContext.hpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\RuntimeFeatures.hpp">
+      <Filter>amethyst\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\EventBus.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\GameEvents.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\InputEvents.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\ModEvents.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\RegisterEvents.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\RenderingEvents.hpp">
+      <Filter>amethyst\runtime\events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputAction.hpp">
+      <Filter>amethyst\runtime\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputManager.hpp">
+      <Filter>amethyst\runtime\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\minecraft\MinecraftPackageInfo.hpp">
+      <Filter>amethyst\runtime\minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\mod\Mod.hpp">
+      <Filter>amethyst\runtime\mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\patchManager\PatchManager.hpp">
+      <Filter>amethyst\runtime\patchManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\ui\NinesliceHelper.hpp">
+      <Filter>amethyst\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\ClientInstance.hpp">
+      <Filter>minecraft\src-client\common\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\IClientInstance.hpp">
+      <Filter>minecraft\src-client\common\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\MinecraftGame.hpp">
+      <Filter>minecraft\src-client\common\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\ScreenView.hpp">
+      <Filter>minecraft\src-client\common\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\SliderComponent.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\TextComponent.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\ToggleComponent.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\UIComponent.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\renderers\HoverRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls\renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\renderers\HoverTextRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\gui\controls\renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\GuiData.hpp">
+      <Filter>minecraft\src-client\common\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\UIControl.hpp">
+      <Filter>minecraft\src-client\common\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\VisualTree.hpp">
+      <Filter>minecraft\src-client\common\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\screens\UIScreenContext.hpp">
+      <Filter>minecraft\src-client\common\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\ClientInputHandler.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\ClientInputMappingFactory.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\Keymapping.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\MinecraftInputHandler.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\RemappingLayout.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\VanillaClientInputMappingFactory.hpp">
+      <Filter>minecraft\src-client\common\client\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\Geometry.hpp">
+      <Filter>minecraft\src-client\common\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\GeometryGroup.hpp">
+      <Filter>minecraft\src-client\common\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\GeometryInfo.hpp">
+      <Filter>minecraft\src-client\common\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\network\ClientNetworkHandler.hpp">
+      <Filter>minecraft\src-client\common\client\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\BaseOptions.hpp">
+      <Filter>minecraft\src-client\common\client\options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\Options.hpp">
+      <Filter>minecraft\src-client\common\client\options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\player\LocalPlayer.hpp">
+      <Filter>minecraft\src-client\common\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ActorShaderManager.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderContext.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ImageInfo.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\NinesliceInfo.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\RenderMaterialGroup.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\Tessellator.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TextureGroup.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TexturePtr.hpp">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\actor\ItemRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockGraphics.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockTessellator.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\blockActor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRendererDispatcher.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\blockActor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRenderer.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRendererPlayer.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\helpers\MeshHelpers.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\MinecraftUIRenderContext.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\ScreenContext.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\BaseLightTextureImageBuilder.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\IsotropicFaceData.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\TextureAtlasItem.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\TextureUVCoordinateSet.hpp">
+      <Filter>minecraft\src-client\common\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\social\MultiplayerGameinfo.hpp">
+      <Filter>minecraft\src-client\common\client\social</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\world\item\ItemIconManager.hpp">
+      <Filter>minecraft\src-client\common\client\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\module\GameModuleClient.hpp">
+      <Filter>minecraft\src-client\common\module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\Blob.hpp">
+      <Filter>minecraft\src-deps\core\container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\IntrusiveList.hpp">
+      <Filter>minecraft\src-deps\core\container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\debug\log\ContentLog.hpp">
+      <Filter>minecraft\src-deps\core\debug\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\debug\log\ContentLogTypes.hpp">
+      <Filter>minecraft\src-deps\core\debug\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\file\Path.hpp">
+      <Filter>minecraft\src-deps\core\file</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\headerIncludes\gsl_includes.hpp">
+      <Filter>minecraft\src-deps\core\headerIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Color.hpp">
+      <Filter>minecraft\src-deps\core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\DividedPos2d.h">
+      <Filter>minecraft\src-deps\core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Math.hpp">
+      <Filter>minecraft\src-deps\core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceHelper.hpp">
+      <Filter>minecraft\src-deps\core\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceUtil.hpp">
+      <Filter>minecraft\src-deps\core\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\semVer\SemVersion.hpp">
+      <Filter>minecraft\src-deps\core\semVer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\string\StringHash.hpp">
+      <Filter>minecraft\src-deps\core\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\Mutex.hpp">
+      <Filter>minecraft\src-deps\core\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\SpinLock.hpp">
+      <Filter>minecraft\src-deps\core\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\AutomaticID.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\BinaryStream.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\CallStack.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\ErrorInfo.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\NonOwnerPointer.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\Result.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\StringUtils.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\UUID.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\buffer_span.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\buffer_span_mut.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\optional_ref.hpp">
+      <Filter>minecraft\src-deps\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Conector.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Publisher.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\PublisherConfig.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Subscription.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\SubscriptionContext.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\ThreadModel.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\DispatchingPublisherBase.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\FastDispatcherPublisherBase.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\PublisherBase.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\SubscriptionBody.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\ThreadingPublisherBase.hpp">
+      <Filter>minecraft\src-deps\core\utility\pubsub\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageBuffer.hpp">
+      <Filter>minecraft\src-deps\coregraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageDescription.hpp">
+      <Filter>minecraft\src-deps\coregraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\TextureDescription.hpp">
+      <Filter>minecraft\src-deps\coregraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\TextureSetLayerTypes.hpp">
+      <Filter>minecraft\src-deps\coregraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\ColorSpace.hpp">
+      <Filter>minecraft\src-deps\coregraphics\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\ImageType.hpp">
+      <Filter>minecraft\src-deps\coregraphics\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\TextureFormat.hpp">
+      <Filter>minecraft\src-deps\coregraphics\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\expected.hpp">
+      <Filter>minecraft\src-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputHandler.hpp">
+      <Filter>minecraft\src-deps\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputMapping.hpp">
+      <Filter>minecraft\src-deps\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputMappingFactory.hpp">
+      <Filter>minecraft\src-deps\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\MouseDevice.hpp">
+      <Filter>minecraft\src-deps\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\hal\interface\RenderContext.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\hal\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\BedrockTexture.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\Mesh.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MeshContext.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MeshData.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureContainer.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureGroupBase.hpp">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\raknet\raknet\PacketPriority.hpp">
+      <Filter>minecraft\src-deps\raknet\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Camera.hpp">
+      <Filter>minecraft\src-deps\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Matrix.hpp">
+      <Filter>minecraft\src-deps\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\MatrixStack.hpp">
+      <Filter>minecraft\src-deps\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\RenderMaterialGroupBase.hpp">
+      <Filter>minecraft\src-deps\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\hal\SampleDescription.hpp">
+      <Filter>minecraft\src-deps\renderer\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\hal\TextureDescription.hpp">
+      <Filter>minecraft\src-deps\renderer\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_client\common\module\VanillaGameModuleClient.hpp">
+      <Filter>minecraft\src-vanilla\vanilla_client\common\module</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\resources\VanillaInPackagePacks.hpp">
+      <Filter>minecraft\src-vanilla\vanilla_shared\common\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\OverworldDimension.hpp">
+      <Filter>minecraft\src-vanilla\vanilla_shared\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\VanillaDimensionFactory.hpp">
+      <Filter>minecraft\src-vanilla\vanilla_shared\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\ActorUniqueID.hpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\AppPlatformListener.hpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\CommonTypes.hpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\Minecraft.hpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\SharedPtr.hpp">
+      <Filter>minecraft\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\dataloadhelper\DefaultDataLoadHelper.hpp">
+      <Filter>minecraft\src\common\dataloadhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\OwnerPtr.hpp">
+      <Filter>minecraft\src\common\gamerefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\StackRefResult.hpp">
+      <Filter>minecraft\src\common\gamerefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\WeakRef.hpp">
+      <Filter>minecraft\src\common\gamerefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_entity\IEntityRegistryOwner.hpp">
+      <Filter>minecraft\src\common\gamerefs\gamerefs_entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\GameRefsSharePtr.hpp">
+      <Filter>minecraft\src\common\gamerefs\gamerefs_shareptr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\OwnerStorageSharePtr.hpp">
+      <Filter>minecraft\src\common\gamerefs\gamerefs_shareptr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ByteArrayTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ByteTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTagVariant.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\DoubleTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\EndTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\FloatTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Int64Tag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\IntArrayTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\IntTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ListTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ShortTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\StringTag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Tag.hpp">
+      <Filter>minecraft\src\common\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\ClientOrServerNetworkSystemRef.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\IPacketHandlerDispatcher.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\LoopbackPacketSender.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetEventCallback.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetworkBlockPosition.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetworkPeer.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\PacketHandlerDispatcherInstance.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\PacketSender.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\ServerNetworkHandler.hpp">
+      <Filter>minecraft\src\common\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\BlockActorDataPacket.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\ChangeDimensionPacket.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\CommandRequestPacket.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\LoginPacket.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\RequestNetworkSettingsPacket.hpp">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\resources\BaseGameVersion.hpp">
+      <Filter>minecraft\src\common\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\resources\InPackagePacks.hpp">
+      <Filter>minecraft\src\common\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\server\ServerPlayer.hpp">
+      <Filter>minecraft\src\common\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\BiMap.hpp">
+      <Filter>minecraft\src\common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\Factory.hpp">
+      <Filter>minecraft\src\common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\NewType.hpp">
+      <Filter>minecraft\src\common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Direction.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Facing.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\GameSession.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\PlayerUIContainer.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\SimpleContainer.hpp">
+      <Filter>minecraft\src\common\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Actor.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorDefinitionIdentifier.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorTerrainInterlockData.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorTypes.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Mob.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ModelPartLocator.hpp">
+      <Filter>minecraft\src\common\world\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Inventory.hpp">
+      <Filter>minecraft\src\common\world\actor\player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Player.hpp">
+      <Filter>minecraft\src\common\world\actor\player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\PlayerInventory.hpp">
+      <Filter>minecraft\src\common\world\actor\player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityContext.hpp">
+      <Filter>minecraft\src\common\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityId.hpp">
+      <Filter>minecraft\src\common\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityIdTraits.hpp">
+      <Filter>minecraft\src\common\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorDefinitionIdentifierComponent.hpp">
+      <Filter>minecraft\src\common\world\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorHeadRotationComponent.hpp">
+      <Filter>minecraft\src\common\world\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorRotationComponent.hpp">
+      <Filter>minecraft\src\common\world\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\StateVectorComponent.hpp">
+      <Filter>minecraft\src\common\world\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\events\gameEvents\GameEvent.hpp">
+      <Filter>minecraft\src\common\world\events\gameEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.hpp">
+      <Filter>minecraft\src\common\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\network\ItemStackNetIdVariant.hpp">
+      <Filter>minecraft\src\common\world\inventory\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\AuxDataBlockItem.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\BlockItem.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\FertilizerType.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemCategory.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemGroup.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemInstance.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStack.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStackBase.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ResolvedItemIconInfo.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ShulkerBoxBlockItem.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\UseAnim.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\VanillaItems.hpp">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistry.hpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryManager.hpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryRef.hpp">
+      <Filter>minecraft\src\common\world\item\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockPos.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSource.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSourceListener.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkBlockPos.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkPos.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\DimensionManager.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ILevel.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\IWorldRegistriesProvider.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Level.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\LevelListener.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Pos2d.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Tick.hpp">
+      <Filter>minecraft\src\common\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\ActorBlock.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\Block.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockRenderLayer.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockShape.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockState.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\GetCollisionShapeInterface.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\LevelEvent.hpp">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.hpp">
+      <Filter>minecraft\src\common\world\level\block\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActorRendererId.hpp">
+      <Filter>minecraft\src\common\world\level\block\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.hpp">
+      <Filter>minecraft\src\common\world\level\block\actor\container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockComponentBase.hpp">
+      <Filter>minecraft\src\common\world\level\block\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockComponentStorage.hpp">
+      <Filter>minecraft\src\common\world\level\block\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockMapColorComponent.hpp">
+      <Filter>minecraft\src\common\world\level\block\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\definition\BlockDefinitionGroup.hpp">
+      <Filter>minecraft\src\common\world\level\block\definition</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\registry\BlockTypeRegistry.hpp">
+      <Filter>minecraft\src\common\world\level\block\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\registry\VanillaBlockTypeRegistry.hpp">
+      <Filter>minecraft\src\common\world\level\block\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.hpp">
+      <Filter>minecraft\src\common\world\level\block\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\BlockVolume.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkGeneratorStructureState.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkState.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunk.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunkFormat.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunkGarbageCollector.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\SubChunk.hpp">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionBrightnessRamp.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionFactory.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionHeightRange.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\HeightRange.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\IDimension.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\IDimensionFactory.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\VanillaDimensions.hpp">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureCache.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureType.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureSetRegistry.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\FeatureTerrainAdjustments.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\HardcodedSpawnAreaRegistry.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\IPreliminarySurfaceProvider.hpp">
+      <Filter>minecraft\src\common\world\level\levelgen\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\material\Material.hpp">
+      <Filter>minecraft\src\common\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\material\MaterialType.hpp">
+      <Filter>minecraft\src\common\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\saveddata\SavedData.hpp">
+      <Filter>minecraft\src\common\world\level\saveddata</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\storage\GameRules.hpp">
+      <Filter>minecraft\src\common\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\storage\StorageVersion.hpp">
+      <Filter>minecraft\src\common\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\AABB.hpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\HitResult.hpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\ShapeType.hpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec2.hpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec3.hpp">
+      <Filter>minecraft\src\common\world\phys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\Amethyst\AmethystAPI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.asm">
+      <Filter>amethyst</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ActorShaderManager.asm">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderer.asm">
+      <Filter>minecraft\src-client\common\client\renderer</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRenderer.asm">
+      <Filter>minecraft\src-client\common\client\renderer\blockActor</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.asm">
+      <Filter>minecraft\src-deps\minecraftrenderer\renderer</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\OverworldDimension.asm">
+      <Filter>minecraft\src-vanilla\vanilla_shared\common\world\level\dimension</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.asm">
+      <Filter>minecraft\src\common\network\packet</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.asm">
+      <Filter>minecraft\src\common\world</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.asm">
+      <Filter>minecraft\src\common\world\inventory</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\BlockItem.asm">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.asm">
+      <Filter>minecraft\src\common\world\item</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.asm">
+      <Filter>minecraft\src\common\world\level\block</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.asm">
+      <Filter>minecraft\src\common\world\level\block\actor</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.asm">
+      <Filter>minecraft\src\common\world\level\block\actor\container</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.asm">
+      <Filter>minecraft\src\common\world\level\block\types</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.asm">
+      <Filter>minecraft\src\common\world\level\chunk</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.asm">
+      <Filter>minecraft\src\common\world\level\dimension</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.asm">
+      <Filter>minecraft\src\common\world\level\levelgen</Filter>
+    </NASM>
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.asm">
+      <Filter>minecraft\src\common\world\level\levelgen\structure</Filter>
+    </NASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="amethyst">
+      <UniqueIdentifier>{43215B5A-9A4C-3200-AE3E-37A74B201122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst-deps">
+      <UniqueIdentifier>{B54DB10D-C576-3A5F-8E09-2D3164199AF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime">
+      <UniqueIdentifier>{AC73AB9C-F79E-3D3C-A443-EA33AD5867F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime\events">
+      <UniqueIdentifier>{C7CDCF50-DDB5-3C0D-BC6F-2107E2380DE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime\input">
+      <UniqueIdentifier>{5FAE73D5-6F62-3E42-823F-34DEEADD64C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime\minecraft">
+      <UniqueIdentifier>{F8A18438-8D97-3986-B970-2D3CC318441A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime\mod">
+      <UniqueIdentifier>{BB4066CC-CA0F-3CB0-8703-51207A5CE718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\runtime\patchManager">
+      <UniqueIdentifier>{F7815E83-CD2D-3FE0-BA29-A6A7EA9FA91E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amethyst\ui">
+      <UniqueIdentifier>{DCDF4C72-173C-3329-A59C-89DC068B24C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft">
+      <UniqueIdentifier>{519A8411-4548-3361-9058-319451116D60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src">
+      <UniqueIdentifier>{C22E2988-EE0B-3D19-AF82-7864A0166673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client">
+      <UniqueIdentifier>{8F7A42C6-E081-3030-BC6A-6475790CE7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common">
+      <UniqueIdentifier>{F9D9FB71-38CC-34D3-8D77-4993C4ADE780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client">
+      <UniqueIdentifier>{FA9FD537-E03D-3849-A0C8-6A75DD5FEFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\game">
+      <UniqueIdentifier>{DE1C7C2E-6344-3E2A-BA2F-5409BA44E183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\gui">
+      <UniqueIdentifier>{D68C945D-DEC0-3BA5-9D6E-4F376B57E653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\gui\controls">
+      <UniqueIdentifier>{B3807E41-1136-306C-B491-18F6501391F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\gui\controls\renderers">
+      <UniqueIdentifier>{CF4B632F-D6C7-3A6D-98B1-DCC59D17E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\gui\gui">
+      <UniqueIdentifier>{F9F6FD62-0436-3344-9987-280FD7A248B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\gui\screens">
+      <UniqueIdentifier>{2121A167-B5B4-3140-AC86-4D6C23A01C2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\input">
+      <UniqueIdentifier>{BCD1EDF4-EE1D-3DC3-82F9-9694DAC73025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\model">
+      <UniqueIdentifier>{FDB5F2BE-EDF1-3BE0-92A0-3EFA1369F411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\network">
+      <UniqueIdentifier>{85550495-B406-39C7-A638-A1041A1933B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\options">
+      <UniqueIdentifier>{BEF2AA1B-C36A-3A58-B19F-0FC2A7BAA810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\player">
+      <UniqueIdentifier>{9033DA4B-D270-3CB1-964A-3E5C67205667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer">
+      <UniqueIdentifier>{FD933A8F-54AB-3F11-A657-F200EC38C0E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\actor">
+      <UniqueIdentifier>{B3C26EEA-C20B-3D66-B515-1A92B7439161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\block">
+      <UniqueIdentifier>{35140A63-6D08-3F63-83BE-63FE0AEF9D58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\blockActor">
+      <UniqueIdentifier>{DAAB4705-3FA3-3142-901C-2EA314327F76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\game">
+      <UniqueIdentifier>{59A756C5-FC99-3D26-81E1-07C56856154F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\helpers">
+      <UniqueIdentifier>{8D0F6A50-D686-32B3-BE95-6026EFBA1210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\screen">
+      <UniqueIdentifier>{37C92F21-FAB8-345D-9899-57C96C8B7ADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\renderer\texture">
+      <UniqueIdentifier>{92FE3FEF-F3D6-3913-84B3-1F4C687A1245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\social">
+      <UniqueIdentifier>{F079592D-07B9-30D3-A1DB-C43E6B0622EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\world">
+      <UniqueIdentifier>{757C72FD-B5B0-3339-806E-62F8A6842433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\client\world\item">
+      <UniqueIdentifier>{CCF5D789-89D1-377F-8DAA-902DCF28EA49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-client\common\module">
+      <UniqueIdentifier>{CF9A8B3C-5439-3CF9-BA37-A3DAE9B29104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps">
+      <UniqueIdentifier>{CEF75866-A33C-396B-9819-61BBE99C914A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core">
+      <UniqueIdentifier>{BFF3B92B-E12B-3085-BD60-A42914CDF8F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\container">
+      <UniqueIdentifier>{960228D0-A6EB-3A67-8E28-2F7F16F5769E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\debug">
+      <UniqueIdentifier>{A3E7376D-16A0-3E15-90E2-10FBBAC4B212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\debug\log">
+      <UniqueIdentifier>{9BC5DC94-D76A-3F9A-9BAB-6C5D77816239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\file">
+      <UniqueIdentifier>{E6B5F22A-64DB-364A-812B-5F43D5784637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\headerIncludes">
+      <UniqueIdentifier>{0E6F714A-1628-3EFB-A3CE-D5F3283C86D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\math">
+      <UniqueIdentifier>{2B320B7E-17F8-32DD-89FB-602ACC1F92DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\resource">
+      <UniqueIdentifier>{DD0DA881-EF8D-30B7-8945-39EF5313842F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\semVer">
+      <UniqueIdentifier>{988F6097-9C66-38AF-BA0D-6EE49379CCB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\string">
+      <UniqueIdentifier>{D8FA20A3-5380-3BA8-A390-7B7B266F58B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\threading">
+      <UniqueIdentifier>{36C259B8-A497-3912-87AA-6EDEA382A0B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\utility">
+      <UniqueIdentifier>{0D434C9F-167E-3FA3-8940-A94E2C806570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\utility\pubsub">
+      <UniqueIdentifier>{6977DBD0-DA97-3D45-B61A-B621A752216B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\core\utility\pubsub\detail">
+      <UniqueIdentifier>{F25F025A-5AB5-3547-8B5E-BCFA52DE91B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\coregraphics">
+      <UniqueIdentifier>{42558E7F-D49D-3AA3-8655-046333DEC8E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\coregraphics\enums">
+      <UniqueIdentifier>{445604F1-E172-3B97-8C62-6DA308E4154A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\input">
+      <UniqueIdentifier>{CADE1830-DDF9-3D71-A8B5-B89BF413DB5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\minecraftrenderer">
+      <UniqueIdentifier>{CEEA6F21-8B45-3B3C-BF5A-43F7BEF91709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\minecraftrenderer\hal">
+      <UniqueIdentifier>{3FF89824-55A5-3261-BFBD-DC38E0B34DB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\minecraftrenderer\hal\interface">
+      <UniqueIdentifier>{F703FE19-2A86-337D-B2EC-1FBCC2AF4CEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\minecraftrenderer\renderer">
+      <UniqueIdentifier>{8778426A-103E-3816-BB9E-9A0D56021ADC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\raknet">
+      <UniqueIdentifier>{CD0E5A89-3D1E-3AD2-AE45-D22B8502342F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\raknet\raknet">
+      <UniqueIdentifier>{48B7CC91-FAF4-3CA7-9950-4BB38F2719CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\renderer">
+      <UniqueIdentifier>{F9E3F2F4-40CC-3B3C-ACAC-627FC5F7D7EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-deps\renderer\hal">
+      <UniqueIdentifier>{169FACCF-BE1A-31BC-B323-FAA60D99A241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla">
+      <UniqueIdentifier>{7578BAFB-D3D1-3443-84EC-89E086737452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_client">
+      <UniqueIdentifier>{4CCC6888-0839-3E91-89CB-D8D6E27E1A36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_client\common">
+      <UniqueIdentifier>{DEC9A312-08F0-3F16-BA35-386DFF119497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_client\common\module">
+      <UniqueIdentifier>{0779BDF9-C35C-3CF5-BFC9-8548196DEC23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared">
+      <UniqueIdentifier>{8232DD4A-B6E9-3A4D-8FE9-26AA26710371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared\common">
+      <UniqueIdentifier>{A614F7A4-2981-3A20-A66F-93F7AC083A8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared\common\resources">
+      <UniqueIdentifier>{63117FEB-500B-302E-8FCA-46815ACB1167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared\common\world">
+      <UniqueIdentifier>{9E5F9EC5-FC86-30E4-AFE9-27154F7129A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared\common\world\level">
+      <UniqueIdentifier>{53966AD9-548B-32E8-94D8-16CE7F078768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src-vanilla\vanilla_shared\common\world\level\dimension">
+      <UniqueIdentifier>{40AA6964-BE7A-3B0C-81C4-0C337DC3CE62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common">
+      <UniqueIdentifier>{EB625E86-1FB0-320B-9E1B-0EF0942E5D2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\dataloadhelper">
+      <UniqueIdentifier>{25E31B60-BF6E-335B-9A63-DE40ACC7001A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\gamerefs">
+      <UniqueIdentifier>{54D2A8D8-F878-3B0F-B0CE-61BCE88ADD04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\gamerefs\gamerefs_entity">
+      <UniqueIdentifier>{66AEFD20-9221-36A4-AF8B-FE9CD2856497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\gamerefs\gamerefs_shareptr">
+      <UniqueIdentifier>{5F559EF9-6296-3A47-96D6-A6EEFFA6623D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\nbt">
+      <UniqueIdentifier>{7B4BE2D2-D40E-3BB1-B5E7-FBD4E1D6FDF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\network">
+      <UniqueIdentifier>{F9AFCCD4-15AE-35E7-A9F4-7D6027DAA6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\network\packet">
+      <UniqueIdentifier>{F3973214-B798-38F5-A675-768429812C88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\resources">
+      <UniqueIdentifier>{7EC6F497-89FC-3DD7-8BB6-8291435775C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\server">
+      <UniqueIdentifier>{6785CD56-AA56-338B-95B3-D7394F8160ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\util">
+      <UniqueIdentifier>{436BEE1D-658C-3651-8BB3-4FDD2276F7B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world">
+      <UniqueIdentifier>{636B990F-42B8-322E-9320-67662341BE9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\actor">
+      <UniqueIdentifier>{595FD9F2-2B83-3AA4-94CD-FEE38E8698A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\actor\player">
+      <UniqueIdentifier>{7DC1DAFB-6484-3A65-AC94-A89CB3C158CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\entity">
+      <UniqueIdentifier>{4AFEA7B0-1E4E-3D38-B333-A08EE97BC3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\entity\components">
+      <UniqueIdentifier>{73DFF5D5-9131-3614-8BFD-6CCFF5ED3861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\events">
+      <UniqueIdentifier>{04F6C0C7-8155-3009-B1BB-16F3753D8DDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\events\gameEvents">
+      <UniqueIdentifier>{EBC8D408-F5F1-3EF9-9E66-070FCECF72E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\inventory">
+      <UniqueIdentifier>{342522DB-DE4A-3702-882A-097160E7622D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\inventory\network">
+      <UniqueIdentifier>{D09C22E0-3D5E-3532-8078-081CCE0E5CDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\item">
+      <UniqueIdentifier>{8300B6A3-0322-3F16-B62B-A5BCA0F9AA46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\item\registry">
+      <UniqueIdentifier>{52A8FB62-E416-341C-AC3C-1C788D07D0D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level">
+      <UniqueIdentifier>{CBD14AB9-CCC8-3D64-848C-4F0103CACC6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block">
+      <UniqueIdentifier>{CF1EEC6E-0A96-3F87-905D-68BF448FDF8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\actor">
+      <UniqueIdentifier>{61A32D9B-12EF-3F2B-BC4D-98FE940761CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\actor\container">
+      <UniqueIdentifier>{029A6C5B-9A71-3BB9-B566-D22FCCE575EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\components">
+      <UniqueIdentifier>{BCF8357F-8584-378D-95ED-54EEBB146179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\definition">
+      <UniqueIdentifier>{4D972061-5A5D-3C0D-A01C-D68AFD2A5546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\registry">
+      <UniqueIdentifier>{F5B3CE35-B32F-3C90-8160-39EF7CB85861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\block\types">
+      <UniqueIdentifier>{DA421F80-C8BA-3739-A18A-6D4A67A0C673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\chunk">
+      <UniqueIdentifier>{559BF98A-1EFF-3017-A9E5-2B5679CBC0CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\dimension">
+      <UniqueIdentifier>{C7EBAAA6-D7A8-33BD-8FC9-5A98AB0B421B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\levelgen">
+      <UniqueIdentifier>{ED19E289-35CC-33E9-A401-2CA0D5DE2AB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\levelgen\structure">
+      <UniqueIdentifier>{59FBA4B9-F4CC-3E69-A1AA-0689A4DF038F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\levelgen\v1">
+      <UniqueIdentifier>{C5B01B41-DB24-3577-923C-D41EBB00CEE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\material">
+      <UniqueIdentifier>{B707E51B-F532-3FDA-AF25-D346BC8F74D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\saveddata">
+      <UniqueIdentifier>{CB75A834-C9E6-3250-97CD-F4B94E88A6A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\level\storage">
+      <UniqueIdentifier>{11337D32-3249-3EAB-BC3D-A2ED65B960D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minecraft\src\common\world\phys">
+      <UniqueIdentifier>{BB3A486B-A8DF-37DE-BD4A-91A132E67ECC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\a2a330bc1216981d6b6894875c6730ee\libhat-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\5452f3b0eb7ced3d1522f218e6ac8664\libhat-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\c3021e7c42e253398d2fbee07f162367\libhat-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-subbuild\CMakeFiles\libhat-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5C2CEB89-21A3-3C10-81DA-7230B45EA693}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

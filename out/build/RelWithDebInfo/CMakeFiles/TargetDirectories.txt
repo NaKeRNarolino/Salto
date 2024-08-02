@@ -1,0 +1,9 @@
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/CMakeFiles/Salto.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/CMakeFiles/INSTALL.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/CMakeFiles/ZERO_CHECK.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/build/CMakeFiles/AmethystAPI.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/build/CMakeFiles/INSTALL.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-build/CMakeFiles/libhat.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-build/CMakeFiles/INSTALL.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-build/CMakeFiles/ALL_BUILD.dir

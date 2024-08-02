@@ -11,8 +11,11 @@
 #include <minecraft/src/common/Minecraft.hpp>
 #include <minecraft/src/common/world/level/BlockSource.hpp>
 
+
+
 std::shared_ptr<Minimap> minimap;
 bool isInWorld = false;
+bool isForceHidden = false;
 
 void AfterRenderUi(AfterRenderUIEvent& event)
 {
@@ -20,9 +23,10 @@ void AfterRenderUi(AfterRenderUIEvent& event)
     if (!minimap) return;
 
     // Only render the UI on the "hud_screen" element.
-    if (event.screen.visualTree->mRootControlName->mName == "hud_screen") {
+    if (event.screen.visualTree->mRootControlName->mName == "hud_screen" && !isForceHidden) {
         minimap->Render(event.ctx);
     }
+    
 }
 
 void DestroyMinimap()
@@ -49,6 +53,7 @@ void RegisterInputs(RegisterInputsEvent& event)
 {
     event.inputManager.RegisterNewInput("map_zoom_in", {0xBB});
     event.inputManager.RegisterNewInput("map_zoom_out", {0xBD});
+    event.inputManager.RegisterNewInput("hide_map", {'h'});
 }
 
 void OnStartJoinGame(OnStartJoinGameEvent& event)
@@ -67,6 +72,12 @@ void OnStartJoinGame(OnStartJoinGameEvent& event)
     inputs.AddButtonDownHandler(
         "map_zoom_out", [](FocusImpact focus, IClientInstance& ci) {
             minimap->mRenderDistance++;
+        },
+        false);
+
+    inputs.AddButtonDownHandler(
+        "hide_map", [](FocusImpact focus, IClientInstance& ci) {
+            isForceHidden = !isForceHidden;
         },
         false);
 }

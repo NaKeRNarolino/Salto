@@ -1,0 +1,3406 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "build/RelWithDebInfo/AmethystAPI.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_compile_options"
+		],
+		"files" : 
+		[
+			"C:/Users/User/.vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Users/User/Documents/Amethyst/AmethystAPI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 637,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-src/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /await /await /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++latest"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/MP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-src/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				11,
+				13,
+				17,
+				19,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				43,
+				46,
+				53,
+				59,
+				62,
+				64,
+				66,
+				71,
+				74,
+				78,
+				84,
+				86,
+				88,
+				91,
+				93,
+				95,
+				101,
+				103,
+				105,
+				113,
+				116,
+				121,
+				124,
+				128,
+				132,
+				135,
+				138,
+				144,
+				146,
+				155,
+				164,
+				172,
+				180,
+				182,
+				186,
+				191,
+				204,
+				206,
+				209,
+				216,
+				220,
+				222,
+				230,
+				234,
+				250,
+				256,
+				261,
+				264,
+				269,
+				277,
+				289,
+				297,
+				302,
+				304,
+				310,
+				312,
+				314,
+				316,
+				318,
+				321,
+				331,
+				333,
+				336,
+				344,
+				348,
+				357,
+				359,
+				363,
+				366,
+				372,
+				374,
+				381,
+				384,
+				388,
+				400,
+				405
+			]
+		},
+		{
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-src/include"
+				}
+			],
+			"language" : "ASM_NASM",
+			"sourceIndexes" : 
+			[
+				10,
+				76,
+				80,
+				97,
+				179,
+				199,
+				249,
+				260,
+				288,
+				293,
+				296,
+				335,
+				343,
+				347,
+				356,
+				362,
+				371,
+				383,
+				387
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "libhat::@3f49425102d323051cdb"
+		}
+	],
+	"id" : "AmethystAPI::@039278ea0a093c55e3e1",
+	"name" : "AmethystAPI",
+	"nameOnDisk" : "AmethystAPI.lib",
+	"paths" : 
+	{
+		"build" : "build",
+		"source" : "C:/Users/User/Documents/Amethyst/AmethystAPI"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "amethyst-deps",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "amethyst",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "amethyst\\runtime",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "amethyst\\runtime\\events",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "amethyst\\runtime\\input",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "amethyst\\runtime\\minecraft",
+			"sourceIndexes" : 
+			[
+				31,
+				32
+			]
+		},
+		{
+			"name" : "amethyst\\runtime\\mod",
+			"sourceIndexes" : 
+			[
+				33,
+				34
+			]
+		},
+		{
+			"name" : "amethyst\\runtime\\patchManager",
+			"sourceIndexes" : 
+			[
+				35,
+				36
+			]
+		},
+		{
+			"name" : "amethyst\\ui",
+			"sourceIndexes" : 
+			[
+				37,
+				38
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\game",
+			"sourceIndexes" : 
+			[
+				39,
+				40,
+				41,
+				42
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\gui",
+			"sourceIndexes" : 
+			[
+				43,
+				44
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\gui\\controls",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47,
+				48,
+				49
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\gui\\controls\\renderers",
+			"sourceIndexes" : 
+			[
+				50,
+				51
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\gui\\gui",
+			"sourceIndexes" : 
+			[
+				52,
+				53,
+				54,
+				55
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\gui\\screens",
+			"sourceIndexes" : 
+			[
+				56
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\input",
+			"sourceIndexes" : 
+			[
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\model",
+			"sourceIndexes" : 
+			[
+				66,
+				67,
+				68,
+				69
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\network",
+			"sourceIndexes" : 
+			[
+				70
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\options",
+			"sourceIndexes" : 
+			[
+				71,
+				72,
+				73
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\player",
+			"sourceIndexes" : 
+			[
+				74,
+				75
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\actor",
+			"sourceIndexes" : 
+			[
+				91,
+				92
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\block",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95,
+				96
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\blockActor",
+			"sourceIndexes" : 
+			[
+				97,
+				98,
+				99
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\game",
+			"sourceIndexes" : 
+			[
+				100,
+				101,
+				102
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\helpers",
+			"sourceIndexes" : 
+			[
+				103,
+				104
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\screen",
+			"sourceIndexes" : 
+			[
+				105,
+				106,
+				107
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\renderer\\texture",
+			"sourceIndexes" : 
+			[
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\social",
+			"sourceIndexes" : 
+			[
+				112
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\client\\world\\item",
+			"sourceIndexes" : 
+			[
+				113,
+				114
+			]
+		},
+		{
+			"name" : "minecraft\\src-client\\common\\module",
+			"sourceIndexes" : 
+			[
+				115
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\container",
+			"sourceIndexes" : 
+			[
+				116,
+				117,
+				118
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\debug\\log",
+			"sourceIndexes" : 
+			[
+				119,
+				120
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\file",
+			"sourceIndexes" : 
+			[
+				121,
+				122
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\headerIncludes",
+			"sourceIndexes" : 
+			[
+				123
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\math",
+			"sourceIndexes" : 
+			[
+				124,
+				125,
+				126,
+				127
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\resource",
+			"sourceIndexes" : 
+			[
+				128,
+				129,
+				130
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\semVer",
+			"sourceIndexes" : 
+			[
+				131
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\string",
+			"sourceIndexes" : 
+			[
+				132,
+				133
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\threading",
+			"sourceIndexes" : 
+			[
+				134,
+				135,
+				136
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\utility",
+			"sourceIndexes" : 
+			[
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\utility\\pubsub",
+			"sourceIndexes" : 
+			[
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\core\\utility\\pubsub\\detail",
+			"sourceIndexes" : 
+			[
+				158,
+				159,
+				160,
+				161,
+				162
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\coregraphics",
+			"sourceIndexes" : 
+			[
+				163,
+				164,
+				165,
+				166,
+				167
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\coregraphics\\enums",
+			"sourceIndexes" : 
+			[
+				168,
+				169,
+				170
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps",
+			"sourceIndexes" : 
+			[
+				171
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\input",
+			"sourceIndexes" : 
+			[
+				172,
+				173,
+				174,
+				175,
+				176
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\minecraftrenderer\\hal\\interface",
+			"sourceIndexes" : 
+			[
+				177
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\minecraftrenderer\\renderer",
+			"sourceIndexes" : 
+			[
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\raknet\\raknet",
+			"sourceIndexes" : 
+			[
+				189
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\renderer",
+			"sourceIndexes" : 
+			[
+				190,
+				191,
+				192,
+				193,
+				194
+			]
+		},
+		{
+			"name" : "minecraft\\src-deps\\renderer\\hal",
+			"sourceIndexes" : 
+			[
+				195,
+				196
+			]
+		},
+		{
+			"name" : "minecraft\\src-vanilla\\vanilla_client\\common\\module",
+			"sourceIndexes" : 
+			[
+				197
+			]
+		},
+		{
+			"name" : "minecraft\\src-vanilla\\vanilla_shared\\common\\resources",
+			"sourceIndexes" : 
+			[
+				198
+			]
+		},
+		{
+			"name" : "minecraft\\src-vanilla\\vanilla_shared\\common\\world\\level\\dimension",
+			"sourceIndexes" : 
+			[
+				199,
+				200,
+				201
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common",
+			"sourceIndexes" : 
+			[
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\dataloadhelper",
+			"sourceIndexes" : 
+			[
+				209,
+				210
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\gamerefs",
+			"sourceIndexes" : 
+			[
+				211,
+				212,
+				213
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\gamerefs\\gamerefs_entity",
+			"sourceIndexes" : 
+			[
+				214
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\gamerefs\\gamerefs_shareptr",
+			"sourceIndexes" : 
+			[
+				215,
+				216,
+				217
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\nbt",
+			"sourceIndexes" : 
+			[
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\network",
+			"sourceIndexes" : 
+			[
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\network\\packet",
+			"sourceIndexes" : 
+			[
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\resources",
+			"sourceIndexes" : 
+			[
+				253,
+				254
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\server",
+			"sourceIndexes" : 
+			[
+				255
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\util",
+			"sourceIndexes" : 
+			[
+				256,
+				257,
+				258,
+				259
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world",
+			"sourceIndexes" : 
+			[
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\actor",
+			"sourceIndexes" : 
+			[
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\actor\\player",
+			"sourceIndexes" : 
+			[
+				276,
+				277,
+				278,
+				279
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\entity",
+			"sourceIndexes" : 
+			[
+				280,
+				281,
+				282
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\entity\\components",
+			"sourceIndexes" : 
+			[
+				283,
+				284,
+				285,
+				286
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\events\\gameEvents",
+			"sourceIndexes" : 
+			[
+				287
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\inventory",
+			"sourceIndexes" : 
+			[
+				288,
+				289,
+				290
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\inventory\\network",
+			"sourceIndexes" : 
+			[
+				291
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\item",
+			"sourceIndexes" : 
+			[
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\item\\registry",
+			"sourceIndexes" : 
+			[
+				310,
+				311,
+				312,
+				313,
+				314,
+				315
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level",
+			"sourceIndexes" : 
+			[
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block",
+			"sourceIndexes" : 
+			[
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\actor",
+			"sourceIndexes" : 
+			[
+				343,
+				344,
+				345,
+				346
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\actor\\container",
+			"sourceIndexes" : 
+			[
+				347,
+				348,
+				349
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\components",
+			"sourceIndexes" : 
+			[
+				350,
+				351,
+				352
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\definition",
+			"sourceIndexes" : 
+			[
+				353
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\registry",
+			"sourceIndexes" : 
+			[
+				354,
+				355
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\block\\types",
+			"sourceIndexes" : 
+			[
+				356,
+				357,
+				358
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\chunk",
+			"sourceIndexes" : 
+			[
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\dimension",
+			"sourceIndexes" : 
+			[
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\levelgen",
+			"sourceIndexes" : 
+			[
+				383,
+				384,
+				385
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\levelgen\\structure",
+			"sourceIndexes" : 
+			[
+				386,
+				387,
+				388,
+				389,
+				390,
+				391
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\levelgen\\v1",
+			"sourceIndexes" : 
+			[
+				392,
+				393,
+				394
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\material",
+			"sourceIndexes" : 
+			[
+				395,
+				396
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\saveddata",
+			"sourceIndexes" : 
+			[
+				397
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\level\\storage",
+			"sourceIndexes" : 
+			[
+				398,
+				399
+			]
+		},
+		{
+			"name" : "minecraft\\src\\common\\world\\phys",
+			"sourceIndexes" : 
+			[
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst-deps/Zydis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst-deps/Zydis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst-deps/safetyhook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst-deps/safetyhook.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Config.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Config.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Log.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Log.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Memory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Memory.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/MinecraftVtables.asm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/MinecraftVtables.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/MinecraftVtables.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Utility.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/Utility.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/AmethystContext.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/EnumAllocator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/HookManager.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/HookManager.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/ModContext.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/ModContext.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/RuntimeFeatures.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/EventBus.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/GameEvents.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/InputEvents.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/ModEvents.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/RegisterEvents.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/events/RenderingEvents.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/input/InputAction.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/input/InputManager.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/input/InputManager.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/minecraft/MinecraftPackageInfo.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/minecraft/MinecraftPackageInfo.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/mod/Mod.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/mod/Mod.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/patchManager/PatchManager.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/runtime/patchManager/PatchManager.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/ui/NinesliceHelper.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/amethyst/ui/NinesliceHelper.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/game/ClientInstance.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/game/ClientInstance.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/game/IClientInstance.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/game/MinecraftGame.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/ScreenView.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/ScreenView.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/SliderComponent.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/TextComponent.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/TextComponent.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/ToggleComponent.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/UIComponent.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/renderers/HoverRenderer.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/controls/renderers/HoverTextRenderer.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/gui/GuiData.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/gui/UIControl.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/gui/UIControl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/gui/VisualTree.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/gui/screens/UIScreenContext.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/ClientInputHandler.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/ClientInputMappingFactory.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/Keymapping.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/Keymapping.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/MinecraftInputHandler.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/RemappingLayout.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/RemappingLayout.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/VanillaClientInputMappingFactory.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/input/VanillaClientInputMappingFactory.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/model/Geometry.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/model/Geometry.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/model/GeometryGroup.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/model/GeometryInfo.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/network/ClientNetworkHandler.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/options/BaseOptions.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/options/BaseOptions.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/options/Options.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/player/LocalPlayer.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/player/LocalPlayer.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/ActorShaderManager.asm",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/ActorShaderManager.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/BaseActorRenderContext.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/BaseActorRenderContext.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/BaseActorRenderer.asm",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/BaseActorRenderer.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/ImageInfo.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/NinesliceInfo.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/RenderMaterialGroup.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/RenderMaterialGroup.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/Tessellator.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/Tessellator.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/TextureGroup.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/TextureGroup.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/TexturePtr.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/actor/ItemRenderer.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/actor/ItemRenderer.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/block/BlockGraphics.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/block/BlockGraphics.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/block/BlockTessellator.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/block/BlockTessellator.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/blockActor/BlockActorRenderer.asm",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/blockActor/BlockActorRenderer.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/blockActor/BlockActorRendererDispatcher.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/game/LevelRenderer.hpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/game/LevelRendererPlayer.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/game/LevelRendererPlayer.hpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/helpers/MeshHelpers.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/helpers/MeshHelpers.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/screen/MinecraftUIRenderContext.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/screen/MinecraftUIRenderContext.hpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/screen/ScreenContext.hpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/texture/BaseLightTextureImageBuilder.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/texture/IsotropicFaceData.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/texture/TextureAtlasItem.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/renderer/texture/TextureUVCoordinateSet.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/social/MultiplayerGameinfo.hpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/world/item/ItemIconManager.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/client/world/item/ItemIconManager.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-client/common/module/GameModuleClient.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/container/Blob.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/container/Blob.hpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/container/IntrusiveList.hpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/debug/log/ContentLog.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/debug/log/ContentLogTypes.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/file/Path.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/file/Path.hpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/headerIncludes/gsl_includes.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/math/Color.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/math/Color.hpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/math/DividedPos2d.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/math/Math.hpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/resource/ResourceHelper.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/resource/ResourceHelper.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/resource/ResourceUtil.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/semVer/SemVersion.hpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/string/StringHash.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/string/StringHash.hpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/threading/Mutex.hpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/threading/SpinLock.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/threading/SpinLock.hpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/AutomaticID.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/BinaryStream.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/BinaryStream.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/CallStack.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/ErrorInfo.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/NonOwnerPointer.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/Result.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/StringUtils.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/StringUtils.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/UUID.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/UUID.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/buffer_span.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/buffer_span_mut.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/optional_ref.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/Conector.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/Publisher.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/PublisherConfig.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/Subscription.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/SubscriptionContext.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/SubscriptionContext.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/ThreadModel.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/detail/DispatchingPublisherBase.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/detail/FastDispatcherPublisherBase.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/detail/PublisherBase.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/detail/SubscriptionBody.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/core/utility/pubsub/detail/ThreadingPublisherBase.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/ImageBuffer.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/ImageDescription.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/ImageDescription.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/TextureDescription.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/TextureSetLayerTypes.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/enums/ColorSpace.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/enums/ImageType.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/coregraphics/enums/TextureFormat.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/expected.hpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/input/InputHandler.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/input/InputHandler.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/input/InputMapping.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/input/InputMappingFactory.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/input/MouseDevice.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/hal/interface/RenderContext.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/BedrockTexture.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/MaterialPtr.asm",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/MaterialPtr.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/MaterialPtr.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/Mesh.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/Mesh.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/MeshContext.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/MeshData.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/TextureContainer.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/TextureContainer.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/minecraftrenderer/renderer/TextureGroupBase.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/raknet/raknet/PacketPriority.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/Camera.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/Matrix.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/Matrix.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/MatrixStack.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/RenderMaterialGroupBase.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/hal/SampleDescription.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-deps/renderer/hal/TextureDescription.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-vanilla/vanilla_client/common/module/VanillaGameModuleClient.hpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-vanilla/vanilla_shared/common/resources/VanillaInPackagePacks.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-vanilla/vanilla_shared/common/world/level/dimension/OverworldDimension.asm",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-vanilla/vanilla_shared/common/world/level/dimension/OverworldDimension.hpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src-vanilla/vanilla_shared/common/world/level/dimension/VanillaDimensionFactory.hpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/ActorUniqueID.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/AppPlatformListener.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/CommonTypes.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/CommonTypes.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/Minecraft.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/Minecraft.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/SharedPtr.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/dataloadhelper/DefaultDataLoadHelper.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/dataloadhelper/DefaultDataLoadHelper.hpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/OwnerPtr.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/StackRefResult.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/WeakRef.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/gamerefs_entity/IEntityRegistryOwner.hpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/gamerefs_shareptr/GameRefsSharePtr.hpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/gamerefs_shareptr/OwnerStorageSharePtr.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/gamerefs/gamerefs_shareptr/OwnerStorageSharePtr.hpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/ByteArrayTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/ByteTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/CompoundTag.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/CompoundTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/CompoundTagVariant.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/CompoundTagVariant.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/DoubleTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/EndTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/FloatTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/Int64Tag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/IntArrayTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/IntTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/ListTag.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/ListTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/ShortTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/StringTag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/Tag.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/nbt/Tag.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/ClientOrServerNetworkSystemRef.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/IPacketHandlerDispatcher.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/LoopbackPacketSender.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/NetEventCallback.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/NetworkBlockPosition.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/NetworkPeer.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/PacketHandlerDispatcherInstance.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/PacketSender.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/ServerNetworkHandler.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/BlockActorDataPacket.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/ChangeDimensionPacket.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/CommandRequestPacket.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/LoginPacket.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/Packet.asm",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/Packet.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/Packet.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/network/packet/RequestNetworkSettingsPacket.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/resources/BaseGameVersion.hpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/resources/InPackagePacks.hpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/server/ServerPlayer.hpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/util/BiMap.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/util/BiMap.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/util/Factory.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/util/NewType.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Container.asm",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Container.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Container.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Direction.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Facing.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/Facing.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/GameSession.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/PlayerUIContainer.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/SimpleContainer.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/Actor.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/Actor.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/ActorDefinitionIdentifier.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/ActorTerrainInterlockData.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/ActorTypes.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/Mob.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/ModelPartLocator.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/player/Inventory.hpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/player/Player.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/player/Player.hpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/actor/player/PlayerInventory.hpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/EntityContext.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/EntityId.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/EntityIdTraits.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/components/ActorDefinitionIdentifierComponent.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/components/ActorHeadRotationComponent.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/components/ActorRotationComponent.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/entity/components/StateVectorComponent.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/events/gameEvents/GameEvent.hpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/inventory/FillingContainer.asm",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/inventory/FillingContainer.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/inventory/FillingContainer.hpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/inventory/network/ItemStackNetIdVariant.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/AuxDataBlockItem.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/BlockItem.asm",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/BlockItem.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/FertilizerType.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/Item.asm",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/Item.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/Item.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemCategory.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemGroup.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemInstance.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemStack.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemStack.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemStackBase.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ItemStackBase.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ResolvedItemIconInfo.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/ShulkerBoxBlockItem.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/UseAnim.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/VanillaItems.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistry.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistry.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistryManager.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistryManager.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistryRef.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/item/registry/ItemRegistryRef.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/BlockPos.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/BlockPos.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/BlockSource.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/BlockSource.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/BlockSourceListener.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/ChunkBlockPos.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/ChunkBlockPos.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/ChunkPos.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/DimensionManager.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/ILevel.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/IWorldRegistriesProvider.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/Level.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/LevelListener.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/Pos2d.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/Tick.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/ActorBlock.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/ActorBlock.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/Block.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/Block.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockLegacy.asm",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockLegacy.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockLegacy.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockRenderLayer.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockShape.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/BlockState.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/GetCollisionShapeInterface.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/LevelEvent.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/BlockActor.asm",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/BlockActor.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/BlockActor.hpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/BlockActorRendererId.hpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/container/RandomizableBlockActorContainerBase.asm",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/container/RandomizableBlockActorContainerBase.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/actor/container/RandomizableBlockActorContainerBase.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/components/BlockComponentBase.hpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/components/BlockComponentStorage.hpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/components/BlockMapColorComponent.hpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/definition/BlockDefinitionGroup.hpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/registry/BlockTypeRegistry.hpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/registry/VanillaBlockTypeRegistry.hpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/types/ChestBlock.asm",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/types/ChestBlock.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/block/types/ChestBlock.hpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/BlockVolume.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/BlockVolume.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/ChunkGeneratorStructureState.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/ChunkSource.asm",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/ChunkSource.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/ChunkSource.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/ChunkState.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/LevelChunk.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/LevelChunk.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/LevelChunkFormat.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/LevelChunkGarbageCollector.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/chunk/SubChunk.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/Dimension.asm",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/Dimension.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/Dimension.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/DimensionBrightnessRamp.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/DimensionBrightnessRamp.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/DimensionFactory.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/DimensionHeightRange.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/HeightRange.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/IDimension.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/IDimensionFactory.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/VanillaDimensions.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/dimension/VanillaDimensions.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/WorldGenerator.asm",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/WorldGenerator.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/WorldGenerator.hpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureCache.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureRegistry.asm",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureRegistry.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureRegistry.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureType.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/structure/StructureSetRegistry.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/v1/FeatureTerrainAdjustments.hpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/v1/HardcodedSpawnAreaRegistry.hpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/levelgen/v1/IPreliminarySurfaceProvider.hpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/material/Material.hpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/material/MaterialType.hpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/saveddata/SavedData.hpp",
+			"sourceGroupIndex" : 90
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/storage/GameRules.hpp",
+			"sourceGroupIndex" : 91
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/level/storage/StorageVersion.hpp",
+			"sourceGroupIndex" : 91
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/AABB.cpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/AABB.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/HitResult.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/ShapeType.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/Vec2.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/Vec3.cpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/User/Documents/Amethyst/AmethystAPI/src/minecraft/src/common/world/phys/Vec3.hpp",
+			"sourceGroupIndex" : 92
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

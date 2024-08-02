@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A37B88BB-0D79-3FE0-BF2B-E4C2CFD1A108}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>AmethystAPI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\build\AmethystAPI.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AmethystAPI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AmethystAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Amethyst\AmethystAPI\include;C:\Users\User\Documents\Amethyst\AmethystAPI\src;C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Amethyst\AmethystAPI\include;C:\Users\User\Documents\Amethyst\AmethystAPI\src;C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\Users\User\Documents\Amethyst\AmethystAPI\include\;C:\Users\User\Documents\Amethyst\AmethystAPI\src\;C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-src\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Amethyst\AmethystAPI\include;C:\Users\User\Documents\Amethyst\AmethystAPI\src;C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\Amethyst\AmethystAPI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/Documents/Amethyst/AmethystAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/dev/projects/amethyst/salto -BC:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo --check-stamp-file C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FetchContent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindGit.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\Zydis.c" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\Zydis.h" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\safetyhook.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst-deps\safetyhook.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Config.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Config.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Log.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Log.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Memory.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Memory.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.asm">
+      <ObjectFileName>$(IntDir)/src/amethyst/MinecraftVtables.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.cpp">
+      <ObjectFileName>$(IntDir)/src/amethyst/MinecraftVtables.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\MinecraftVtables.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Utility.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\Utility.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\AmethystContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\EnumAllocator.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\HookManager.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\HookManager.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\ModContext.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\ModContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\RuntimeFeatures.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\EventBus.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\GameEvents.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\InputEvents.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\ModEvents.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\RegisterEvents.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\events\RenderingEvents.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputAction.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputManager.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\input\InputManager.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\minecraft\MinecraftPackageInfo.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\minecraft\MinecraftPackageInfo.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\mod\Mod.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\mod\Mod.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\patchManager\PatchManager.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\runtime\patchManager\PatchManager.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\ui\NinesliceHelper.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\amethyst\ui\NinesliceHelper.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\ClientInstance.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\ClientInstance.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\IClientInstance.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\game\MinecraftGame.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\ScreenView.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\ScreenView.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\SliderComponent.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\TextComponent.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\TextComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\ToggleComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\UIComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\renderers\HoverRenderer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\controls\renderers\HoverTextRenderer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\GuiData.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\UIControl.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\UIControl.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\gui\VisualTree.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\gui\screens\UIScreenContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\ClientInputHandler.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\ClientInputMappingFactory.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\Keymapping.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\Keymapping.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\MinecraftInputHandler.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\RemappingLayout.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\RemappingLayout.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\VanillaClientInputMappingFactory.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\input\VanillaClientInputMappingFactory.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\Geometry.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\Geometry.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\GeometryGroup.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\model\GeometryInfo.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\network\ClientNetworkHandler.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\BaseOptions.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\BaseOptions.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\options\Options.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\player\LocalPlayer.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\player\LocalPlayer.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ActorShaderManager.asm" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ActorShaderManager.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderContext.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderContext.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderer.asm" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\BaseActorRenderer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\ImageInfo.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\NinesliceInfo.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\RenderMaterialGroup.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\RenderMaterialGroup.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\Tessellator.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\Tessellator.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TextureGroup.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TextureGroup.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\TexturePtr.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\actor\ItemRenderer.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\actor\ItemRenderer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockGraphics.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockGraphics.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockTessellator.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\block\BlockTessellator.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRenderer.asm" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRenderer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\blockActor\BlockActorRendererDispatcher.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRenderer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRendererPlayer.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\game\LevelRendererPlayer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\helpers\MeshHelpers.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\helpers\MeshHelpers.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\MinecraftUIRenderContext.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\MinecraftUIRenderContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\screen\ScreenContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\BaseLightTextureImageBuilder.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\IsotropicFaceData.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\TextureAtlasItem.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\renderer\texture\TextureUVCoordinateSet.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\social\MultiplayerGameinfo.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\world\item\ItemIconManager.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\client\world\item\ItemIconManager.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-client\common\module\GameModuleClient.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\Blob.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\Blob.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\container\IntrusiveList.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\debug\log\ContentLog.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\debug\log\ContentLogTypes.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\file\Path.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\file\Path.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\headerIncludes\gsl_includes.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Color.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Color.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\DividedPos2d.h" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\math\Math.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceHelper.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceHelper.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\resource\ResourceUtil.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\semVer\SemVersion.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\string\StringHash.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\string\StringHash.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\Mutex.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\SpinLock.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\threading\SpinLock.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\AutomaticID.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\BinaryStream.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\BinaryStream.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\CallStack.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\ErrorInfo.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\NonOwnerPointer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\Result.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\StringUtils.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\StringUtils.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\UUID.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\UUID.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\buffer_span.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\buffer_span_mut.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\optional_ref.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Conector.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Publisher.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\PublisherConfig.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\Subscription.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\SubscriptionContext.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\SubscriptionContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\ThreadModel.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\DispatchingPublisherBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\FastDispatcherPublisherBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\PublisherBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\SubscriptionBody.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\core\utility\pubsub\detail\ThreadingPublisherBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageBuffer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageDescription.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\ImageDescription.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\TextureDescription.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\TextureSetLayerTypes.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\ColorSpace.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\ImageType.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\coregraphics\enums\TextureFormat.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\expected.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputHandler.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputHandler.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputMapping.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\InputMappingFactory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\input\MouseDevice.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\hal\interface\RenderContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\BedrockTexture.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src-deps/minecraftrenderer/renderer/MaterialPtr.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src-deps/minecraftrenderer/renderer/MaterialPtr.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MaterialPtr.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\Mesh.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\Mesh.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MeshContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\MeshData.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureContainer.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureContainer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\minecraftrenderer\renderer\TextureGroupBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\raknet\raknet\PacketPriority.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Camera.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Matrix.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\Matrix.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\MatrixStack.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\RenderMaterialGroupBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\hal\SampleDescription.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-deps\renderer\hal\TextureDescription.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_client\common\module\VanillaGameModuleClient.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\resources\VanillaInPackagePacks.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\OverworldDimension.asm" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\OverworldDimension.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src-vanilla\vanilla_shared\common\world\level\dimension\VanillaDimensionFactory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\ActorUniqueID.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\AppPlatformListener.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\CommonTypes.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\CommonTypes.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\Minecraft.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\Minecraft.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\SharedPtr.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\dataloadhelper\DefaultDataLoadHelper.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\dataloadhelper\DefaultDataLoadHelper.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\OwnerPtr.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\StackRefResult.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\WeakRef.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_entity\IEntityRegistryOwner.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\GameRefsSharePtr.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\OwnerStorageSharePtr.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\gamerefs\gamerefs_shareptr\OwnerStorageSharePtr.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ByteArrayTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ByteTag.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTag.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTag.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTagVariant.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\CompoundTagVariant.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\DoubleTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\EndTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\FloatTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Int64Tag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\IntArrayTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\IntTag.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ListTag.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ListTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\ShortTag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\StringTag.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Tag.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\nbt\Tag.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\ClientOrServerNetworkSystemRef.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\IPacketHandlerDispatcher.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\LoopbackPacketSender.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetEventCallback.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetworkBlockPosition.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\NetworkPeer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\PacketHandlerDispatcherInstance.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\PacketSender.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\ServerNetworkHandler.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\BlockActorDataPacket.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\ChangeDimensionPacket.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\CommandRequestPacket.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\LoginPacket.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/network/packet/Packet.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/network/packet/Packet.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\Packet.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\network\packet\RequestNetworkSettingsPacket.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\resources\BaseGameVersion.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\resources\InPackagePacks.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\server\ServerPlayer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\BiMap.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\BiMap.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\Factory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\util\NewType.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/Container.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/Container.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Container.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Direction.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Facing.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\Facing.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\GameSession.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\PlayerUIContainer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\SimpleContainer.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Actor.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Actor.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorDefinitionIdentifier.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorTerrainInterlockData.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ActorTypes.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\Mob.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\ModelPartLocator.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Inventory.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Player.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\Player.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\actor\player\PlayerInventory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityContext.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityId.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\EntityIdTraits.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorDefinitionIdentifierComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorHeadRotationComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\ActorRotationComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\entity\components\StateVectorComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\events\gameEvents\GameEvent.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/inventory/FillingContainer.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/inventory/FillingContainer.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\FillingContainer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\inventory\network\ItemStackNetIdVariant.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\AuxDataBlockItem.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\BlockItem.asm" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\BlockItem.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\FertilizerType.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/item/Item.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/item/Item.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\Item.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemCategory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemGroup.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemInstance.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStack.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStack.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStackBase.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ItemStackBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ResolvedItemIconInfo.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\ShulkerBoxBlockItem.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\UseAnim.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\VanillaItems.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistry.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistry.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryManager.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryManager.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryRef.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\item\registry\ItemRegistryRef.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockPos.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockPos.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSource.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSource.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\BlockSourceListener.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkBlockPos.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkBlockPos.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ChunkPos.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\DimensionManager.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\ILevel.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\IWorldRegistriesProvider.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Level.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\LevelListener.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Pos2d.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\Tick.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\ActorBlock.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\ActorBlock.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\Block.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\Block.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/BlockLegacy.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/BlockLegacy.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockLegacy.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockRenderLayer.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockShape.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\BlockState.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\GetCollisionShapeInterface.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\LevelEvent.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/actor/BlockActor.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/actor/BlockActor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActor.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\BlockActorRendererId.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/actor/container/RandomizableBlockActorContainerBase.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/actor/container/RandomizableBlockActorContainerBase.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\actor\container\RandomizableBlockActorContainerBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockComponentBase.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockComponentStorage.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\components\BlockMapColorComponent.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\definition\BlockDefinitionGroup.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\registry\BlockTypeRegistry.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\registry\VanillaBlockTypeRegistry.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/types/ChestBlock.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/block/types/ChestBlock.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\block\types\ChestBlock.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\BlockVolume.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\BlockVolume.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkGeneratorStructureState.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/chunk/ChunkSource.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/chunk/ChunkSource.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkSource.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\ChunkState.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunk.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunk.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunkFormat.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\LevelChunkGarbageCollector.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\chunk\SubChunk.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/dimension/Dimension.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/dimension/Dimension.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\Dimension.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionBrightnessRamp.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionBrightnessRamp.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionFactory.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\DimensionHeightRange.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\HeightRange.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\IDimension.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\IDimensionFactory.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\VanillaDimensions.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\dimension\VanillaDimensions.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/levelgen/WorldGenerator.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/levelgen/WorldGenerator.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\WorldGenerator.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureCache.hpp" />
+    <NASM Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.asm">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureRegistry.asm.obj</ObjectFileName>
+    </NASM>
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.cpp">
+      <ObjectFileName>$(IntDir)/src/minecraft/src/common/world/level/levelgen/structure/StructureFeatureRegistry.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureRegistry.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureFeatureType.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\structure\StructureSetRegistry.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\FeatureTerrainAdjustments.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\HardcodedSpawnAreaRegistry.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\levelgen\v1\IPreliminarySurfaceProvider.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\material\Material.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\material\MaterialType.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\saveddata\SavedData.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\storage\GameRules.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\level\storage\StorageVersion.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\AABB.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\AABB.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\HitResult.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\ShapeType.hpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec2.hpp" />
+    <ClCompile Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec3.cpp" />
+    <ClInclude Include="C:\Users\User\Documents\Amethyst\AmethystAPI\src\minecraft\src\common\world\phys\Vec3.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\ZERO_CHECK.vcxproj">
+      <Project>{9D5A6493-47F9-398F-AC75-7B442C9C11CC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-build\libhat.vcxproj">
+      <Project>{A21267FF-922A-36EE-BFBE-549DF72FF737}</Project>
+      <Name>libhat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

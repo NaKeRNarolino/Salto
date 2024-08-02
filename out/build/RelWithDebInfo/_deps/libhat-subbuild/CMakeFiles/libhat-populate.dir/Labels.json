@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/libhat-populate"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/c3021e7c42e253398d2fbee07f162367/libhat-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/5452f3b0eb7ced3d1522f218e6ac8664/libhat-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/a2a330bc1216981d6b6894875c6730ee/libhat-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libhat-populate"
+		],
+		"name" : "libhat-populate"
+	}
+}

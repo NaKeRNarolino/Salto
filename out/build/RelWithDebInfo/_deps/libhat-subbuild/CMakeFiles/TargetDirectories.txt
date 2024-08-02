@@ -1,0 +1,3 @@
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/libhat-populate.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/ZERO_CHECK.dir

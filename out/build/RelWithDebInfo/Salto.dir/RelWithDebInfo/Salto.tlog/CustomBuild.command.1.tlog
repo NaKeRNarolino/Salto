@@ -1,0 +1,10 @@
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/dev/projects/amethyst/salto -BC:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo --check-stamp-file C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

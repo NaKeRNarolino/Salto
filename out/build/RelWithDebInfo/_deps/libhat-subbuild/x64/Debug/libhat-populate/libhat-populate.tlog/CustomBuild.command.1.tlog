@@ -1,0 +1,150 @@
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/tmp/libhat-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/tmp/libhat-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/tmp/libhat-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\A2A330BC1216981D6B6894875C6730EE\LIBHAT-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\User\dev\projects\amethyst\salto\out\build\RelWithDebInfo\_deps\libhat-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\5452F3B0EB7CED3D1522F218E6AC8664\LIBHAT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/Debug/libhat-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/libhat-populate-prefix/src/libhat-populate-stamp/Debug/libhat-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKEFILES\C3021E7C42E253398D2FBEE07F162367\LIBHAT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DEV\PROJECTS\AMETHYST\SALTO\OUT\BUILD\RELWITHDEBINFO\_DEPS\LIBHAT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild -BC:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild --check-stamp-file C:/Users/User/dev/projects/amethyst/salto/out/build/RelWithDebInfo/_deps/libhat-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

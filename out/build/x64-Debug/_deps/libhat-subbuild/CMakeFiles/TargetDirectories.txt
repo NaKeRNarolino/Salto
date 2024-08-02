@@ -1,0 +1,3 @@
+C:/Users/User/dev/projects/amethyst/salto/out/build/x64-Debug/_deps/libhat-subbuild/CMakeFiles/libhat-populate.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/x64-Debug/_deps/libhat-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/User/dev/projects/amethyst/salto/out/build/x64-Debug/_deps/libhat-subbuild/CMakeFiles/rebuild_cache.dir

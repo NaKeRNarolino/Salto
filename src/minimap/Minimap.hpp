@@ -51,3 +51,5 @@ private:
     void CullChunk(const ChunkPos& pos);
     void _LoadTextures(MinecraftUIRenderContext& ctx);
 };
+
+double roundUp(double value, int decimal_places);

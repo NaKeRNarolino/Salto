@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
 
 # Mod Options
-project(Atlas CXX ASM_NASM)
-set(MOD_VERSION "1.0.3")
-set(MOD_AUTHOR "Adrian8115, FrederoxDev, OuterCloud")
+project(Salto CXX ASM_NASM)
+set(MOD_VERSION "0.1.0")
+set(MOD_AUTHOR "Ori: Adrian8115, FrederoxDev, OuterCloud, Fork: NaKeR")
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /await")
